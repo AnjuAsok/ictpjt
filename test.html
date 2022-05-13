@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>validation</title>
+</head>
+<body bgcolor="pink">
+    <form action="#" onsubmit="return validation()">
+        <div>
+            <label>Name</label>
+            <input type="text" name="user" id="t1"><br>
+            <span id="username"></span>
+        </div>
+        <div>
+            <label>EmailId</label>
+            <input type="text" name="email" id="t2"><br>
+            <span id="emailid"></span>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="text" name="pass" id="t3" oninput="myfunction()">
+            <p id="demo"></p><br>
+            <span id="password"></span>
+        </div>
+        </div>
+        <div>
+            <label>Confirm password</label>
+            <input type="text" name="confirm" id="t4"><br>
+            <span id="confirmpassword"></span>
+        </div>
+        <div>
+            <label>Phone number</label>
+            <input type="text" name="ph" id="t5"><br>
+            <span id="phno"></span>
+        </div>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    <script src="./testscript.js"></script>
+</body>
+</html>

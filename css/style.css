@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-size: cover;
+}
+header{
+    background-color: black;
+    height: 5em;
+    color: white;   
+}
+
+.head-tag{
+    float: right;
+     margin-right: 10%;
+     margin-top: 30px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px white solid;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+
+}
+.head-tag a:hover{
+    background-color: teal;
+    color: black;
+    transition: 0.5s;
+}
+.list-tag{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 100px;
+}
+.list-tag li{
+    list-style-type: square;
+    margin: 5px;
+}
+form{
+    float: right;
+    border: 1px solid red;
+    background-color: beige;
+    margin-top: 5%;
+    height: 15em;
+    width: 10em;
+    padding: 3%;
+}
+button{
+    width: 100%;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    height: 1.8em;
+}
+.login-cont{
+    height: 1.5em;
+}
+.container{
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.content{
+    border: 1px solid white;
+    color:black;
+    width: 22%;
+    float: left;
+    padding: 2px;
+    margin-left: 15px;
+    height: 20em;
+    background-color: #cccc;
+}
+.content h3{
+    text-align: center;
+}
+.content a{
+    color: red;
+    text-decoration: none;
+}
+.content p{
+    text-align: justify;
+    line-height: 1.25em;
+}
+footer{
+    background-color:#cccc;
+    color: white;
+    height: 2em;
+    margin-top: 33%;
+}
+footer h4{
+    text-align: center;
+}
